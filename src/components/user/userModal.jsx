@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const UserProfileModal = ({ user, isOpen, setIsOpen }) => {
     const toggleModal = () => {
       setIsOpen(!isOpen);

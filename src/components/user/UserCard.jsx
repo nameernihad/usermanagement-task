@@ -24,6 +24,9 @@ const SkeletonLoader = () => (
           <strong>Phone:</strong> 
         </p>
         <p>
+          <strong>Website:</strong> 
+        </p>
+        <p>
           <strong>Company:</strong> 
         </p>
         <p>
@@ -93,6 +96,9 @@ const UserCard = () => {
                       </p>
                       <p>
                         <strong>Phone:</strong> {user?.phone}
+                      </p>
+                      <p>
+                        <strong>Website:</strong> {user?.website}
                       </p>
                       <p>
                         <strong>Company:</strong> {user?.company?.name}

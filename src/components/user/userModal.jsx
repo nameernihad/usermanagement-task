@@ -62,6 +62,9 @@ const UserProfileModal = ({ user, isOpen, setIsOpen }) => {
                           <strong>Phone:</strong> {user?.phone}
                         </p>
                         <p>
+                          <strong>Website:</strong> {user?.website}
+                        </p>
+                        <p>
                           <strong>Company:</strong> {user?.company?.name}
                         </p>
                         <p>

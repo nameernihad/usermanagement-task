@@ -67,6 +67,9 @@ const UserTable = () => {
                     Phone
                   </th>
                   <th className="px-6 bg-white-50 text-white-500 align-middle border border-solid border-white py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                  Website
+                  </th>
+                  <th className="px-6 bg-white-50 text-white-500 align-middle border border-solid border-white py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                     Details
                   </th>
                 </tr>
@@ -89,6 +92,9 @@ const UserTable = () => {
                     </td>
                     <td className="border-t-0 px-5 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                       {user.phone}
+                    </td>
+                    <td className="border-t-0 px-5 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                      {user.website}
                     </td>
                     <td className="border-t-0 px-5 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                       <button

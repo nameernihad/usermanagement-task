@@ -8,7 +8,7 @@ const About = () => {
 
         <div className="w-full md:w-1/2">
           <motion.img
-            src="src\assets\Group portrait of happy young.jpeg"
+            src="/Group portrait of happy young.jpeg"
             alt=""
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

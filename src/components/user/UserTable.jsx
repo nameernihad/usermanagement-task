@@ -37,7 +37,7 @@ const UserTable = () => {
   };
 
   return (  
-    <section className="py-1 bg-slate-200">
+    <section className="py-1 h-screen bg-[#201658] ">
       <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4 mx-auto mt-24">
         <div className="relative flex flex-col min-w-0 break-words bg-slate-100 w-full mb-6 shadow-lg rounded">
           <div className="rounded-t mb-0 px-4 py-3 border-t-2 border-spacing-x-2">   

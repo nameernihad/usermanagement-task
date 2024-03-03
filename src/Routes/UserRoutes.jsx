@@ -11,6 +11,7 @@ import PageNotFound from "../components/user/NotFound";
 const UserRoutes = () => {
   return (
     <>
+    <div className="bg-[#201658]">
     <NavBar/>
     <Routes>
         <Route path='/' element={<HomePage/>} />
@@ -18,6 +19,7 @@ const UserRoutes = () => {
         <Route path="*" element={<PageNotFound />} />
 
     </Routes>
+    </div>
     <Footer/>
     </>
   )

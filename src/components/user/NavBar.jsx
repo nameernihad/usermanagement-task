@@ -5,7 +5,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="bg-gray-700 p-7">
+    <nav className="bg-white fixed w-full bg-opacity-30 backdrop-blur-lg p-7">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-xl">My App</div>
         <div className="hidden sm:flex">
